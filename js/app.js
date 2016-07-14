@@ -93,7 +93,7 @@
       };
 
       $.ajax({
-          url: "http://api.stackexchange.com/2.2/questions/unanswered",
+          url: "https://api.stackexchange.com/2.2/questions/unanswered",
           data: request,
           dataType: "jsonp", //use jsonp to avoid cross origin issues
           type: "GET",
